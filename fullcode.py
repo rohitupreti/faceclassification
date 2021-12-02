@@ -13,7 +13,9 @@ test=cv2.imread(r'C:\Users\HP\Downloads\diksha.jpg')
 test_img=cv2.resize(test,(256,256))
 test_img.resize(1,256,256,3)
 
-labels=['rohit','diksha']
+labels=['diksha','rohit']
+
+#first diksha folder is opened then rohit
 
 images=[]
 for filename in os.listdir(r"D:\dataset"):
